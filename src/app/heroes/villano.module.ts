@@ -1,14 +1,14 @@
-import { ContadorComponent } from './contador/contador.component';
+import { VillanoComponent } from './villano/villano.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations:[
-    ContadorComponent
+    VillanoComponent
   ],
 
   exports: [
-    ContadorComponent
+    VillanoComponent
   ],
 
   imports: [
@@ -17,6 +17,7 @@ import { CommonModule } from '@angular/common';
 })
 
 
-export class ContadorModule{
+export class VillanoModule{
 
 }
+

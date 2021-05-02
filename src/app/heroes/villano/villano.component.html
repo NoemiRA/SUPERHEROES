@@ -1,0 +1,20 @@
+<h1 class="azul">  Lista de Villanos </h1>
+
+
+<ul>
+  <div>
+  <li *ngFor="let item of villanos; let i=index">
+      <label>Villano: </label><label class="azul">{{villanos[i]}}</label>
+      <br>
+      <small>{{poder[i]}}<br/></small>
+      <br>
+      <label>Grado de poder: </label>
+    <input type="text" value= "{{grado[i]}}">
+    <button (click) = "acumular(-base,i)">-1</button>
+    <button (click) = "acumular(base,i)">+1</button>
+    <br/>
+    <br/>
+  </li>
+  </div>
+
+</ul>
